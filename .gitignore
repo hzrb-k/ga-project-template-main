@@ -1,0 +1,33 @@
+.DS_Store
+Thumbs.db
+
+# 環境変数（秘密の値を含む）
+.env
+.env.*
+
+# ビルド生成物（CMake / Cコンパイラ）
+build/
+Testing/
+compile_commands.json
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.pdb
+*.ilk
+*.exp
+
+# 実行時・テスト成果物
+logs/
+backups/
+tests/reports/
+tests/evidence/
+
+# Python キャッシュ（フック実行時）
+__pycache__/
+*.pyc
